@@ -1,10 +1,15 @@
+// package Arrays;
 
 public class Array {
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(i);
-        }
+        Array obj = new Array();
+        obj.manual_array();
     }
+
+    public void manual_array() {
+        int[] marks = {98, 92, 96, 93, 95}; // creating array manually my inserting each value
+        System.out.println(marks[1]);
+    }
+
 }
