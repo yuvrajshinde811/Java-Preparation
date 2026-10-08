@@ -41,7 +41,8 @@ public class ArrayFundamentals {
 		}
 
 		System.out.println(Arrays.toString(str));
-
+		
+		in.close();
 	}
 
 }
