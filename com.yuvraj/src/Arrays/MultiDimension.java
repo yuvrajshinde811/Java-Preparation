@@ -51,5 +51,13 @@ public class MultiDimension {
 		for (int row = 0; row < 3; row++) {
 			System.out.println(Arrays.toString(arr[row]));
 		}
+		
+		
+		// now by the enhanced for loop
+		System.out.println("This is enhanced for loop");
+		
+		for(int[] a : arr) {
+			System.out.println(Arrays.toString(a));
+		}
 	}
 }
