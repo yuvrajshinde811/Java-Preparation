@@ -12,6 +12,7 @@ public class arrayList {
 		numbers.add(23);
 		numbers.add(45);
 		numbers.add(65);
+		numbers.add(65);
 		
 		System.out.println(numbers);
 		
