@@ -50,6 +50,7 @@ public class MultiDimension {
 		
 		for (int row = 0; row < 3; row++) {
 			System.out.println(Arrays.toString(arr[row]));
+			
 		}
 		
 		
