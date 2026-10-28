@@ -7,24 +7,10 @@ public class arrayList {
 
 		arrayList obj = new arrayList();
 		
-//		obj.multiDimentionalArray();
-//		obj.manualArrayList();
+		obj.multiDimentionalArray();
+		obj.manualArrayList();
 		
-		int[] arr = {10, 45, 98, 62, 78, 26};
-//		int[] arr = {0,  1,   2,  3,  4,  5};
-		
-		Swap(arr,2,4);
-		System.out.println(Arrays.toString(arr));
-
-	}
-	
-	static void Swap(int[]arr, int index1, int index2) {
-		
-		int temp = arr[index1];
-		arr[index1] = arr[index2];
-		arr[index2] = temp;
-	}
-	
+	}	
 	void manualArrayList() {
 		ArrayList<Integer> numbers = new ArrayList<>();
 		
