@@ -5,7 +5,16 @@ public class arrayList {
 
 	public static void main(String[] args) {
 
+		arrayList obj = new arrayList();
+		
+		obj.multiDimentionalArray();
+//		obj.manualArrayList();
+
+	}
+	
+	void manualArrayList() {
 		ArrayList<Integer> numbers = new ArrayList<>();
+		
 		numbers.add(19); 
 		numbers.add(9);
 		numbers.add(13);
@@ -25,7 +34,32 @@ public class arrayList {
 		System.out.println(numbers.isEmpty());
 		
 		System.out.println(numbers);
-
+	}
+	
+	void multiDimentionalArray() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+		
+		// intialization of arraylist
+		
+		for(int i = 0; i < 3; i++) {
+			list.add(new ArrayList<>());
+		}
+		
+		
+		//adding values in arraylist
+		
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				list.get(i).add(sc.nextInt());
+			}
+		}
+		
+		System.out.println(list);
+		
+	
 	}
 
 }
