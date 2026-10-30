@@ -1,0 +1,6 @@
+Class
+Object
+Instance
+Reference variable
+stack memory
+heap memory
