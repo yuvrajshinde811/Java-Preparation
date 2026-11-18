@@ -4,3 +4,5 @@ Instance
 Reference variable
 stack memory
 heap memory
+new
+constructor

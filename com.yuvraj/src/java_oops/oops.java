@@ -6,17 +6,23 @@ public class oops {
 		
 		System.out.println("This is oops in java");
 		
-//		Student yuvraj = new Student();
-//		System.out.println(yuvraj.name);
+		// data of 5 students = {rollno, name, marks}
+		int[] rollno = new int[5];
+		String[] name = new String[5];
+		float[] marks = new float[5];
+		
+		 // creating our own class with datatype
+		Student[] students = new Student[5];
 	
 	}
 	
+	// create a class
 	class Student{
+		int[] rollno = new int[5];
+		String[] name = new String[5];
+		float[] marks = new float[5];
 		
-		String name;
-		int num;
-		float fnum;
 		
 	}
-
+	
 }
