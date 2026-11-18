@@ -22,6 +22,7 @@ public class oops {
 		String[] name = new String[5];
 		float[] marks = new float[5];
 		
+//		System.out.println("This is class");
 		
 	}
 	
