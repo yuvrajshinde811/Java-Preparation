@@ -6,3 +6,5 @@ stack memory
 heap memory
 new
 constructor
+static variable
+access modifiers
